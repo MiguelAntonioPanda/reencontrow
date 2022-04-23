@@ -21,6 +21,10 @@ header{
     gap: 100px;
     padding: 10px;
     margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(34, 34, 34, 0.788);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
 }
 nav ul li{
     display: inline-block;
@@ -79,10 +83,20 @@ header button a{
     margin: 20px 0px 0px 150px;
     border-radius: 30px;
     background-color: #1A7993;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+.area-title button:hover{
+    background-color: #fff;
+    font-size: 1.1em;
+}
+.area-title button:hover a{
+    color: #1A7993;
 }
 .area-title button a{
     color: #fff;
     font-size: medium;
+    transition-duration: 0.4s;
 }
 .img1 img{
     border-radius: 20px;
@@ -130,6 +144,7 @@ header button a{
 .div3 h1{
     color: #fff;
     font-size: 2.5em;
+    text-align: center;
 }
 .div3 p{
     padding-top: 20px;
@@ -142,7 +157,75 @@ header button a{
     border-radius: 30px;
     background-color: #fff;
     font-weight: bold;
+    margin-left: 270px;
+    transition-duration: 0.4s;
 }
 .div3 button a{
     color: #1A7993;
+    transition-duration: 0.4s;
+}
+.div3 button:hover{
+    background-color: #222;
+    font-size: 1.1em;
+}
+.div3 button:hover a{
+    color: #fff;
+}
+.rodape{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fot1 h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+.fot2 input{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 300px;
+    color: #111;
+}
+#in2{
+    margin-top: 25px;
+    padding: 12px;
+    width: 325px;
+    background-color: #1A7993;
+    transition-duration: 0.4s;
+}
+#in2:hover{
+    background-color: #222;
+    font-size: 1.1em;
+}
+#in2 a{
+    color: #ffffff;
+    font-weight: bold;
+}
+#in2:hover a{
+    color: #1A7993;
+}
+.fot3{
+    margin-top: 30px;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+}
+.div3-1 h2{
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.div3-2 {
+    display: inline-block;
+    justify-content: center;
+   
+}
+.div3-2 a{
+    padding: 20px;
+    
 }
