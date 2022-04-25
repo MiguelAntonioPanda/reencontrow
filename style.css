@@ -57,6 +57,10 @@ header button a{
     font-family: 'Paytone One', sans-serif;
     font-size: 30px;
     font-weight: 900;
+    border-right: 5px solid #ffffff;
+}
+.logo h1{
+    padding-right: 20px;
 }
 .logo span{
     color: #1A7993;
@@ -127,6 +131,9 @@ header button a{
     border-radius: 20px;
     color: #1A7993;
     transition-duration: 0.4s;
+}
+.div1 h2{
+    margin-top: 25px;
 }
 .div1:hover{
     background-color: #1A7993;
@@ -212,7 +219,6 @@ header button a{
 }
 .fot3{
     margin-top: 30px;
-    border-bottom: 1px solid #999;
     padding: 10px;
 }
 .div3-1 h2{
@@ -225,7 +231,13 @@ header button a{
     justify-content: center;
    
 }
-.div3-2 a{
-    padding: 20px;
-    
+.div3-2 i{ 
+    justify-content: center; 
+    transition-duration: 0.7s;
+    margin-left: 40px;
+}
+.div3-2 i:hover {
+    background-color: #1A7993;
+    color: #1A7993;
+    border-radius: 50%;
 }
